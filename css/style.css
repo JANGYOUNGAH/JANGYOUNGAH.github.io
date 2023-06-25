@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+button{
+  border: none;
+  font-size: 1.5rem;
+  background: none;
+  color:#f7bc0d;
+  float: right;
+  margin-right:20px;
+}
+
+ul{
+  overflow-wrap: break-word;
+  margin-left: 26px;
+}
+
+ul>li {
+  padding:5px 0px;
+  text-align: left;
+  font-size: 0.7rem;
+
+}
+
+#login-form{
+  padding-top: 5px;
+}
+
+#wrap {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.img_wrap{
+  max-width: 900px;
+  max-height: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+.iphoneImg{
+  display: block;
+  width: 90%;
+  height: auto;
+}
+
+
+#contents{
+  text-align: center;
+  width: 290px;
+  height: 500px;
+  margin: 0 auto;
+  position: absolute;
+  top:56%;
+  left:56%;
+  transform: translate(-38%, -50%);
+  line-height: 30px;
+  color: #894a4a;
+}
+
+.contents--top{
+  display: flex;
+  font-size: 1rem;
+  flex-wrap: wrap;
+  word-spacing: 50px;
+  color: #f7bc0d;
+  padding-left: 10px;
+}
+
+
+#clock{
+  display: block;
+  margin-left: 40px;
+}
+
+#greeting {
+  color:#f7bc0d;
+  padding: 10px;
+}
+
+input {
+  border:none;
+  border-bottom: 1px dotted #f7bc0d;
+  background: none;
+  padding: 10px;
+  color:black;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  font-weight: 500;
+}
+
+input:focus{
+  outline: none;
+}
+
+.hidden {
+  display: none;
+}
+
+#weather{
+  position: absolute;
+  bottom: 5%;
+  left: 12%;
+}
+
+@media (min-width: 300px) and (max-width: 767px){
+
+  .img_wrap{
+    margin-left: -100px;
+  }
+
+  .iphoneImg{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  #contents{
+    width: 35%;
+    height: 60%;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top:50%;
+    left:62%;
+    transform: translate(-38%, -50%);
+    line-height: 30px;
+    font-size: 0.7rem;
+  }
+  
+  .contents--top{
+    display: flex;
+    font-size: 1rem;
+    flex-wrap: wrap;
+    word-spacing: 50px;
+    color: #f7bc0d;
+    padding-left: 10px;
+  }
+
+  #weather{
+    position: absolute;
+    bottom: 5%;
+    left: 12%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  input {
+    width: 90%;
+  }
+  
+}
