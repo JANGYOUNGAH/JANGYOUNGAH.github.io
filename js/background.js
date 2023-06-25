@@ -32,10 +32,10 @@ rootAfterStyle.innerHTML =
   top:0;
   left:0;
   z-index: -1;
-  background-position: center center;
-  background-size: 150% auto;
-  opacity: 0.9;
+  background-position: center ;
+  opacity: 0.8;
   background: url(${bgaImages});
+  background-size: cover;
   background-repeat: no-repeat;
 }`;
   
