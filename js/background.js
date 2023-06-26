@@ -5,12 +5,9 @@ const images = [
   "back4.jpg",
   "back5.jpg",
   "back6.jpg",
-  "back7.jpg",
 ];
 
 const chosenImage = images[Math.floor(Math.random()*images.length)];
-
-console.log(chosenImage);
 
 const bgImage = document.createElement("img");
 const wrap = document.querySelector("#wrap");
